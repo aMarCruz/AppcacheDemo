@@ -15,20 +15,19 @@ We tested some of the highly ranked and recommended websites with articles about
 
 #### Working offline in webview 
 
-webView.loadUrl("http://appcachefacts.info/demo/");
-webView.loadUrl("http://www.cocktailplanet.org/nieuwsbladHtml5/index.html"); this is our website
+Appcachefacts: "http://appcachefacts.info/demo/"
+
+mofosounds: "http://www.cocktailplanet.org/nieuwsbladHtml5/index.html" 
 		
 		
 #### Failing offline in webview
 		
 A List Apart: http://alistapart.com/article/application-cache-is-a-douchebag
-webView.loadUrl("http://appcache-demo.s3-website-us-east-1.amazonaws.com/localstorage-cache/articles/1.html");
 		
-http://diveintohtml5.info/offline.html
-webView.loadUrl("http://diveintohtml5.info/examples/offline/halma.html");
+Diveintihtml5: http://diveintohtml5.info/offline.html
 		
 Html5doctor: http://html5doctor.com/go-offline-with-application-cache/
-webView.loadUrl("http://html5demos.com/offlineapp");
+
 
 
 
