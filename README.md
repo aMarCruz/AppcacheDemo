@@ -9,7 +9,28 @@ From all of our tests it works perfectly in all of the latest desktop & mobile b
 We tested everything in the major browser vendors. Chrome, Firefox, Safari and IE10 are doing the stuff they are supposed to do offline. Everything works like a charm.
 
 ###Up to android now
-Issues and more issues...
+Issues and more issues... Application cache is almost never working in an android WEBVIEW.
+
+We tested some of the highly ranked and recommended websites with articles about the use of application cache, and they also fail. 
+
+#### Working offline in webview 
+
+webView.loadUrl("http://appcachefacts.info/demo/");
+webView.loadUrl("http://www.cocktailplanet.org/nieuwsbladHtml5/index.html"); this is our website
+		
+		
+#### Failing offline in webview
+		
+A List Apart: http://alistapart.com/article/application-cache-is-a-douchebag
+webView.loadUrl("http://appcache-demo.s3-website-us-east-1.amazonaws.com/localstorage-cache/articles/1.html");
+		
+http://diveintohtml5.info/offline.html
+webView.loadUrl("http://diveintohtml5.info/examples/offline/halma.html");
+		
+Html5doctor: http://html5doctor.com/go-offline-with-application-cache/
+webView.loadUrl("http://html5demos.com/offlineapp");
+
+
 
 
 
