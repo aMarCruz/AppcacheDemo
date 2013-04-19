@@ -74,23 +74,25 @@ public class MainActivity extends Activity {
 		
 		
 		//Over to business and check which sites with applicationCache work. 
-		//Note: ALL of these websites  work offline in de most recent browser who support applicationCache!
-		//To test: tilt your device to destroy the webview or close it and restart it. Remember, refreshButton is disabled when being offline	
+		//Note: ALL of these websites  WORK offline in de most recent browser who support applicationCache!
+		//To test: tilt your device to destroy the webview or close it and restart it. 
+		//Remember, refreshButton is disabled when being offline because nothing works!!!	
 		
 		/*** Working offline in webview ***/
 		//webView.loadUrl("http://appcachefacts.info/demo/");
-		//webView.loadUrl("http://www.cocktailplanet.org/nieuwsbladHtml5/index.html");
+		webView.loadUrl("http://www.cocktailplanet.org/nieuwsbladHtml5/index.html");
+		
 		
 		/*** Failing offline in webview ***/
 		
-		//A List Apart
+		//A List Apart: http://alistapart.com/article/application-cache-is-a-douchebag
 		//webView.loadUrl("http://appcache-demo.s3-website-us-east-1.amazonaws.com/localstorage-cache/articles/1.html");
 		
 		//http://diveintohtml5.info/offline.html
 		//webView.loadUrl("http://diveintohtml5.info/examples/offline/halma.html");
 		
-		//
-		webView.loadUrl("http://html5demos.com/offlineapp");
+		//http://html5doctor.com/go-offline-with-application-cache/
+		//webView.loadUrl("http://html5demos.com/offlineapp");
 	}
 
 	/**
